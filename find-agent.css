@@ -1,3 +1,17 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
 /* HEADER */
 header {
     background-color: #1d8103a4;
@@ -160,7 +174,7 @@ header {
 }
 
 .hero-image {
-    flex: 1 1 450px;
+    flex: 1 1 600px;
     display: flex;
     justify-content: center;
     align-items: center;
