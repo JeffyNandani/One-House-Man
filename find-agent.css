@@ -43,11 +43,11 @@ header {
 }
 
 /* CENTER LOGO */
-.center-logo {
+.logo a {
     font-size: 24px;
     font-weight: bold;
-    letter-spacing: 1px;
-    color: #ffffff;
+    color: white;
+    text-decoration: none;
 }
 
 /* RIGHT SIGN-IN BUTTON */
@@ -210,4 +210,67 @@ footer .social a:hover {
 footer p {
     margin-top: 15px;
     font-size: 14px;
+}
+
+.agent-info-section {
+    width: 100%;
+    background: #ffffff;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.agent-container {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    padding: 30px 40px;
+    background: #fafafa;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    line-height: 1.75;
+}
+
+.agent-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.agent-container .intro-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.agent-container h3 {
+    font-size: 24px;
+    margin-top: 35px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.agent-container p {
+    font-size: 17px;
+    color: #444;
+    margin-bottom: 18px;
+}
+
+.styled-list {
+    margin: 0 0 25px 0;
+    padding-left: 20px;
+}
+
+.styled-list li {
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.highlight-note {
+    background: #fff;
+    padding: 12px 18px;
+    border-left: 4px solid #000;
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 17px;
 }
