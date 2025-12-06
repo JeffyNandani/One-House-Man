@@ -246,3 +246,38 @@ footer p {
     background: #003f88;
 }
 
+/* Dark mode button */
+.dark-mode-btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Make sure elements adapt */
+.dark-mode header {
+    background: #1a1a1a;
+}
+
+.dark-mode footer {
+    background: #1a1a1a;
+}
+
+.dark-mode .property-box {
+    background: #222;
+}
+
+.dark-mode .property-box p,
+.dark-mode .property-box h3 {
+    color: #fff;
+}
